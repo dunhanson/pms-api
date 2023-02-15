@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-import site.dunhanson.pms.api.module.permission.service.SysUserService;
+import site.dunhanson.pms.api.module.db.service.SysUserService;
 
 @Slf4j
 @SpringBootTest
