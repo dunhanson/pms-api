@@ -19,7 +19,7 @@ import java.util.List;
  * @since 2023-02-15
  */
 @Service
-public class JdbcUserDetailsService implements UserDetailsService {
+public class SimpleUserDetailsService implements UserDetailsService {
     @Resource
     private SysUserService userService;
     @Resource
